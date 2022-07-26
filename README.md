@@ -56,11 +56,13 @@ as React from [React.js](https://create-react-app.dev/)
 installed with command
 to see repo 
 ```
- 
+ https://github.com/spreadzp/react-ipfs-node-modules
 
 ```
 and backend  application from [Express.js](https://expressjs.com/en/starter/installing.html)
 
 to see repo
 
-
+```
+ https://github.com/spreadzp/ipfs-express.js
+```
