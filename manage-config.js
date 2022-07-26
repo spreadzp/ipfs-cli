@@ -9,8 +9,8 @@ function writeConfig(cid) {
         }
         const config = JSON.parse(data);
 
-        config.scripts["nm-to-ipfs"] = `hello upload`;
-        config.scripts["ipfs-to-nm"] = `hello download ${cid}`;  
+        config.scripts["nm-to-ipfs"] = `ipfs-nm upload`;
+        config.scripts["ipfs-to-nm"] = `ipfs-nm download ${cid}`;  
 
         fs.writeFile(pathConfig, JSON.stringify(config, null, 2), (error) => {
             if (error) {
