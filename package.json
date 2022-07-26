@@ -12,6 +12,7 @@
   "bin": {
     "ipfs-nm": "cli.js"
   },
+  "preferGlobal": true,
   "keywords": [
     "ipfs",
     "node_modules"
