@@ -1,11 +1,8 @@
 {
   "name": "ipfs-nm",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "cli.js",
-  "dependencies": {
-    "adm-zip": "^0.5.9"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
