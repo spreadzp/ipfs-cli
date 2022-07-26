@@ -11,6 +11,10 @@ This package archives the node_modules folder and saves such an archive in IPFS.
  and it works with  installed IPFS globally.
 
 2. How to install IPFS for your OS, follow the link [IPFS](https://docs.ipfs.io/install/command-line/#system-requirements)
+IPFS daemon have to run in background
+```
+ sudo ipfs daemon &
+```
 
 3. For example we as usual staring work with React [React.js](https://create-react-app.dev/)
 using commands:
