@@ -16,11 +16,8 @@ function unzipFile(fileName) {
     });
 
     unzip.on("close", code => {
-        console.log(`Unzip file ${fileName} exited with code ${code}`);
-        if (code === 0) {
-            removeFile(fileName);
-        }
-
+        console.log(`Unzip file ${fileName} exited with code ${code}`);     
+            removeFile(fileName); 
     });
 }
 

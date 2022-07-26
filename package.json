@@ -1,13 +1,14 @@
 {
   "name": "ipfs-nm",
-  "version": "1.0.3",
-  "description": "",
-  "main": "cli.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "version": "1.1.0",
+  "description": "This package allows you to reduce the installation time of dependencies in node_modules during your development process.",
+  "main": "cli.js", 
+  "homepage": "https://github.com/spreadzp/ipfs-cli/blob/master/README.md",
   "bin": {
     "ipfs-nm": "cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/spreadzp/ipfs-cli/issues"
   },
   "preferGlobal": true,
   "keywords": [
@@ -15,5 +16,10 @@
     "node_modules"
   ],
   "author": "Paul Spread <spread2009@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "os": [
+    "darwin",
+    "linux",
+    "!win32"
+  ]
 }

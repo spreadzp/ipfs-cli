@@ -1,22 +1,17 @@
 
 # Inspiration
-This package allows you to reduce the build time of dependencies in node_modules. This is especially important when you or your teammates  sees errors in the console during the installation of yarn or npm install or during the installing packages of your node.js, application in production. Using this package is saving traffic 3 times therefore saves programmer time and therefore benefits the business
+This package allows you to reduce the installation time of dependencies in node_modules during your development process. This is especially important when you or your teammates  sees errors in the console during the installation of ### `yarn` or ### `npm install` or during the installing packages of your application in production. Using this package is saving traffic 3 times therefore saves programmer time and therefore benefits the business
 
 # How it works
-This package archives the node_modules folder and saves such an archive in IPFS. The CID of this archive is writing to the scripts in the file package.json. Now anyone who makes a git pull of this version of the project will be able to fill node_modules with this command without using yarn or npm install In the development process, the programmer can add /remove dependencies from node_modules after which it will call the upload command and now the command will be updated CID. After git push, everyone will be able to use the new version of the archive to update node_modules
+This package archives the node_modules folder and saves such an archive in IPFS and returns ### `(Content Identifier, CID)`. The CID of this archive is writing to the scripts in the file package.json. Now anyone who makes a git pull of this version of the project will be able to fill node_modules with this command without using yarn or npm install In the development process, the programmer can add /remove dependencies from node_modules after which it will call the upload command and now the command will be updated CID. After git push, everyone will be able to use the new version of the archive to update node_modules
 
 # Steps to use the package in your application
-1. To use this package, need to install  globally by command
+1. To use this package, need to install globally by command
+ ```
+    npm i ipfs-nm -g
+ ```
 
- and it works with  installed IPFS globally.
-
-2. How to install IPFS for your OS, follow the link [IPFS](https://docs.ipfs.io/install/command-line/#system-requirements)
-IPFS daemon have to run in background
-```
- sudo ipfs daemon &
-```
-
-3. For example we as usual staring work with React [React.js](https://create-react-app.dev/)
+2. For example we as usual staring work with React [React.js](https://create-react-app.dev/)
 using commands:
 ```
     npx create-react-app my-app
@@ -60,7 +55,7 @@ as React from [React.js](https://create-react-app.dev/)
 installed with command
 to see repo 
 ```
- https://github.com/spreadzp/react-ipfs-node-modules
+    https://github.com/spreadzp/react-ipfs-node-modules
 
 ```
 and backend  application from [Express.js](https://expressjs.com/en/starter/installing.html)
@@ -68,5 +63,5 @@ and backend  application from [Express.js](https://expressjs.com/en/starter/inst
 to see repo
 
 ```
- https://github.com/spreadzp/ipfs-express.js
+    https://github.com/spreadzp/ipfs-express.js
 ```
