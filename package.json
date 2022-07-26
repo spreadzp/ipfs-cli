@@ -1,0 +1,21 @@
+{
+  "name": "ipfs-nm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cli.js",
+  "dependencies": {
+    "adm-zip": "^0.5.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ipfs-nm": "cli.js"
+  },
+  "keywords": [
+    "ipfs",
+    "node_modules"
+  ],
+  "author": "Paul Spread <spread2009@gmail.com>",
+  "license": "MIT"
+}
